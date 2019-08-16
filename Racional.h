@@ -11,7 +11,7 @@ class Racional
   Racional operator /(const Racional& r);
   void reducir();
   void imprimir();
-  //void FloatImprimir(Racional)
+  void FloatImprimir();
   
 
     private:
