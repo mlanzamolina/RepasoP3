@@ -27,8 +27,8 @@ int main()
         }
         r3.imprimir();
     }
-    
     r4.imprimir();
+    r1.FloatImprimir();
 
     
     
