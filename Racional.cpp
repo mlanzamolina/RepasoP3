@@ -60,12 +60,20 @@ void Racional::imprimir()
 {
     if (denominador==0)
     {
-        std::cout<<"No se puede dividir entre 0/n";
+        std::cout<<"\nNo se puede dividir entre 0\n";
        return;
 
     }
     
-    std::cout<<"Fraccion: "<<numerador<<"/"<<denominador<<"\n";
+    std::cout<<"\nFraccion: "<<numerador<<"/"<<denominador<<"\n";
+
+}
+//float imprimir
+void Racional::FloatImprimir()
+{
+reducir();
+
+std::cout<<"\nFloatImprimir: "<<(float)numerador/(float)denominador<<"\n";
 
 }
 //Sacar el menor
